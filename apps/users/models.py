@@ -9,7 +9,7 @@ class User(AbstractUser):
     )
     phone_number = models.CharField(
         max_length=15,
-        verbose_name="ВАш тел.ном",
+        verbose_name="Ваш тел.ном",
 
     )
     created_at = models.DateTimeField(
